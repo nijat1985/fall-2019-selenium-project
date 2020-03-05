@@ -1,4 +1,4 @@
-package OfficeHours;
+package OfficeHours.Day1;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;

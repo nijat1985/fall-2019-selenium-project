@@ -31,6 +31,14 @@
             <version>3.7.1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+<!--        https://mvnrepository.com/artifact/com.github.javafaker/javafaker/1.0.1-->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
     </dependencies>
 
 
