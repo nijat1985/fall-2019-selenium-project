@@ -44,9 +44,31 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.GetAttribute1">
-    <configuration name="GetAttribute1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.GetAttribute1" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/cybertek/tests" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.XpathDemo">
+    <configuration name="ClassNameExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day5_more_xPath.ClassNameExample" />
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day5_more_xPath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClickVsSubmit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.ClickVsSubmit" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAttribute_TryToLocateSignIn_WorkOnIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.GetAttribute_TryToLocateSignIn_WorkOnIt" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.Login" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.GetText" />
+    <configuration name="XpathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day5_more_xPath.XpathDemo" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day4_Xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day5_more_xPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,21 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.PracticeFactory" />
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day4_Xpath.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextMethodOfXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.TextMethodOfXpath" />
+    <configuration name="XpathPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_Xpath.XpathPractice" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetAttribute1" />
-        <item itemvalue="Application.GetText" />
-        <item itemvalue="Application.GetAttribute_TryToLocateSignIn_WorkOnIt" />
-        <item itemvalue="Application.PracticeFactory" />
-        <item itemvalue="Application.TextMethodOfXpath" />
+        <item itemvalue="Application.XpathDemo" />
+        <item itemvalue="Application.ClassNameExample" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.XpathPractice" />
+        <item itemvalue="Application.ClickVsSubmit" />
       </list>
     </recent_temporary>
   </component>
@@ -134,37 +143,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1284" height="218" key="GridCell.Tab.0.bottom" timestamp="1583621738935">
+    <state x="255" y="369" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583677815964">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1284" height="218" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1583621738935" />
-    <state width="1284" height="218" key="GridCell.Tab.0.center" timestamp="1583621738934">
+    <state x="255" y="369" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.828@0.23.1440.828" timestamp="1583677815964" />
+    <state x="474" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1583677837156">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1284" height="218" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1583621738934" />
-    <state width="1284" height="218" key="GridCell.Tab.0.left" timestamp="1583621738932">
+    <state x="474" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.828@0.23.1440.828" timestamp="1583677837156" />
+    <state width="1324" height="218" key="GridCell.Tab.0.bottom" timestamp="1583700682427">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1284" height="218" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1583621738932" />
-    <state width="1284" height="218" key="GridCell.Tab.0.right" timestamp="1583621738934">
+    <state width="1324" height="218" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1583700682427" />
+    <state width="1324" height="218" key="GridCell.Tab.0.center" timestamp="1583700682425">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1284" height="218" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1583621738934" />
+    <state width="1324" height="218" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1583700682425" />
+    <state width="1324" height="218" key="GridCell.Tab.0.left" timestamp="1583700682424">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1324" height="218" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1583700682424" />
+    <state width="1324" height="218" key="GridCell.Tab.0.right" timestamp="1583700682426">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1324" height="218" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1583700682426" />
     <state x="202" y="69" key="SettingsEditor" timestamp="1583077862667">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="202" y="69" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1583077862667" />
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1583593356983">
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1583632935450">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1583593356983" />
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1583632935450" />
     <state x="122" y="128" key="new project wizard" timestamp="1583012525829">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="122" y="128" key="new project wizard/0.23.1440.828@0.23.1440.828" timestamp="1583012525829" />
-    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1583090575967">
+    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1583681485559">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1583090575967" />
+    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1583681485559" />
   </component>
 </project>
