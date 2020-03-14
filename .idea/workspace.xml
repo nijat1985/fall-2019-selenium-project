@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b127fd6-5513-42a2-b5f3-dc8fc24d61c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day6_css/CssExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day6_css/CssExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,20 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AmazonTestWithText">
+  <component name="RunManager" selected="Application.AmazonCssExample">
+    <configuration name="AmazonCssExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_review.AmazonCssExample" />
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day7_review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AmazonTestWithText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_review.AmazonTestWithText" />
       <module name="fall-2019-selenium-project" />
@@ -82,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CssExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day6_css.CssExample" />
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day6_css.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JavaMapsOH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OfficeHours.Day3.JavaMapsOH" />
       <module name="fall-2019-selenium-project" />
@@ -108,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XpathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day5_more_xPath.XpathDemo" />
+    <configuration name="SystemPropertiesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_review.SystemPropertiesExample" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day5_more_xPath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day7_review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AmazonCssExample" />
+        <item itemvalue="Application.SystemPropertiesExample" />
         <item itemvalue="Application.AmazonTestWithText" />
         <item itemvalue="Application.AmazonTests" />
         <item itemvalue="Application.JavaMapsOH" />
-        <item itemvalue="Application.CssExample" />
-        <item itemvalue="Application.XpathDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +141,19 @@
       <option name="presentableId" value="Default" />
       <updated>1583011825629</updated>
     </task>
+    <task id="LOCAL-00001" summary="AmazonTests and AmazonTestWithText">
+      <created>1584214571385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584214571385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AmazonTests and AmazonTestWithText" />
+    <option name="LAST_COMMIT_MESSAGE" value="AmazonTests and AmazonTestWithText" />
   </component>
   <component name="WindowStateProjectService">
     <state x="255" y="369" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583677815964">
@@ -153,26 +164,34 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="474" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.828@0.23.1440.828" timestamp="1583677837156" />
-    <state width="1324" height="223" key="GridCell.Tab.0.bottom" timestamp="1584214486542">
+    <state x="309" y="45" key="CommitChangelistDialog2" timestamp="1584214571047">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584214486542" />
-    <state width="1324" height="223" key="GridCell.Tab.0.center" timestamp="1584214486542">
+    <state x="309" y="45" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1584214571047" />
+    <state width="1324" height="223" key="GridCell.Tab.0.bottom" timestamp="1584219146071">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584214486542" />
-    <state width="1324" height="223" key="GridCell.Tab.0.left" timestamp="1584214486541">
+    <state width="1324" height="223" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584219146071" />
+    <state width="1324" height="223" key="GridCell.Tab.0.center" timestamp="1584219146069">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584214486541" />
-    <state width="1324" height="223" key="GridCell.Tab.0.right" timestamp="1584214486542">
+    <state width="1324" height="223" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584219146069" />
+    <state width="1324" height="223" key="GridCell.Tab.0.left" timestamp="1584219146065">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584214486542" />
+    <state width="1324" height="223" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584219146065" />
+    <state width="1324" height="223" key="GridCell.Tab.0.right" timestamp="1584219146070">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1324" height="223" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584219146070" />
     <state x="202" y="69" key="SettingsEditor" timestamp="1583077862667">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="202" y="69" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1583077862667" />
+    <state x="294" y="226" key="Vcs.Push.Dialog.v2" timestamp="1584218535733">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="294" y="226" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1584218535733" />
     <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1583876156041">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
