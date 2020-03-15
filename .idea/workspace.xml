@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AmazonCssExample">
+  <component name="RunManager" selected="Application.GetAttributeExamples">
     <configuration name="AmazonCssExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_review.AmazonCssExample" />
       <module name="fall-2019-selenium-project" />
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonTestWithText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_review.AmazonTestWithText" />
+    <configuration name="EbaySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_review_2.EbaySearchTest" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day7_review.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day8_review_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,25 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_review.AmazonTests" />
+    <configuration name="GetAttributeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_review_2.GetAttributeExamples" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day7_review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaMapsOH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day3.JavaMapsOH" />
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OfficeHours.Day3.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day8_review_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VytrackTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_review_2.VytrackTests" />
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day8_review_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetAttributeExamples" />
+        <item itemvalue="Application.EbaySearchTest" />
+        <item itemvalue="Application.VytrackTests" />
         <item itemvalue="Application.AmazonCssExample" />
         <item itemvalue="Application.SystemPropertiesExample" />
-        <item itemvalue="Application.AmazonTestWithText" />
-        <item itemvalue="Application.AmazonTests" />
-        <item itemvalue="Application.JavaMapsOH" />
       </list>
     </recent_temporary>
   </component>
@@ -168,22 +168,26 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="309" y="45" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1584214571047" />
-    <state width="1324" height="223" key="GridCell.Tab.0.bottom" timestamp="1584219146071">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1584306057382">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584219146071" />
-    <state width="1324" height="223" key="GridCell.Tab.0.center" timestamp="1584219146069">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584306057382" />
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584302241305" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1584306057379">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584219146069" />
-    <state width="1324" height="223" key="GridCell.Tab.0.left" timestamp="1584219146065">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584306057379" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584302241302" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1584306057378">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584219146065" />
-    <state width="1324" height="223" key="GridCell.Tab.0.right" timestamp="1584219146070">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584306057378" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584302241300" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1584306057381">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1324" height="223" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584219146070" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584306057381" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584302241303" />
     <state x="202" y="69" key="SettingsEditor" timestamp="1583077862667">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
@@ -192,21 +196,26 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="294" y="226" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1584218535733" />
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1583876156041">
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1584281628950">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1583876156041" />
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1584281628950" />
     <state x="507" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584214527847">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="507" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.828@0.23.1440.828" timestamp="1584214527847" />
+    <state x="458" y="210" width="524" height="484" key="extract.method.dialog" timestamp="1584288963755">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="210" width="524" height="484" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1584288963755" />
     <state x="122" y="128" key="new project wizard" timestamp="1583012525829">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="122" y="128" key="new project wizard/0.23.1440.828@0.23.1440.828" timestamp="1583012525829" />
-    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1583681485559">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="358" y="165" width="670" height="735" key="search.everywhere.popup" timestamp="1584288517880">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="358" y="165" width="670" height="735" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584288517880" />
     <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1583681485559" />
   </component>
 </project>
