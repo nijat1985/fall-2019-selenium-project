@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b127fd6-5513-42a2-b5f3-dc8fc24d61c7" name="Default Changelist" comment="">
+    <list default="true" id="3b127fd6-5513-42a2-b5f3-dc8fc24d61c7" name="Default Changelist" comment="AmazonTests and AmazonTestWithText">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +50,21 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="java" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="OfficeHours.Day5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/cybertek/tests" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoogleSearchTest">
-    <configuration name="AmazonCssExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_review.AmazonCssExample" />
+  <component name="RunManager" selected="Application.OfficeHourSessionVytrack">
+    <configuration name="OfficeHourSessionVytrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day5.OfficeHourSessionVytrack" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day7_review.*" />
+          <option name="PATTERN" value="OfficeHours.Day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,65 +72,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EbaySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_review_2.EbaySearchTest" />
+    <configuration name="BeforeAndAfterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day8_review_2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day9_testing_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_testing_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_testing_intro.BeforeAndAfterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAttributeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_review_2.GetAttributeExamples" />
+    <configuration name="BeforeAndAfterTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day8_review_2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day9_testing_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_testing_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_testing_intro.BeforeAndAfterTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day4.GoogleSearchTest" />
+    <configuration name="TestNGAssertionsTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Day4.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day9_testing_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_testing_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_testing_intro.TestNGAssertionsTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VytrackTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_review_2.VytrackTests" />
+    <configuration name="TestNGAssertionsTest.test5" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day8_review_2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day9_testing_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_testing_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_testing_intro.TestNGAssertionsTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoogleSearchTest" />
-        <item itemvalue="Application.EbaySearchTest" />
-        <item itemvalue="Application.GetAttributeExamples" />
-        <item itemvalue="Application.VytrackTests" />
-        <item itemvalue="Application.AmazonCssExample" />
+        <item itemvalue="Application.OfficeHourSessionVytrack" />
+        <item itemvalue="TestNG.BeforeAndAfterTest" />
+        <item itemvalue="TestNG.BeforeAndAfterTest.test1" />
+        <item itemvalue="TestNG.TestNGAssertionsTest.test5" />
+        <item itemvalue="TestNG.TestNGAssertionsTest.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -164,30 +187,42 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="474" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.828@0.23.1440.828" timestamp="1583677837156" />
-    <state x="309" y="45" key="CommitChangelistDialog2" timestamp="1584214571047">
+    <state x="357" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584481489805">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="309" y="45" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1584214571047" />
-    <state width="1179" height="222" key="GridCell.Tab.0.bottom" timestamp="1584397030477">
+    <state x="357" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.828@0.23.1440.828" timestamp="1584481489805" />
+    <state x="301" y="25" key="CommitChangelistDialog2" timestamp="1584491239635">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="301" y="25" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1584491239635" />
+    <state width="1179" height="235" key="GridCell.Tab.0.bottom" timestamp="1584571480050">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584306057382" />
-    <state width="1179" height="222" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584397030477" />
-    <state width="1179" height="222" key="GridCell.Tab.0.center" timestamp="1584397030476">
+    <state width="1179" height="235" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584571480050" />
+    <state width="1179" height="222" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1584482804531" />
+    <state width="1179" height="222" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1584482859137" />
+    <state width="1179" height="235" key="GridCell.Tab.0.center" timestamp="1584571480049">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584306057379" />
-    <state width="1179" height="222" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584397030476" />
-    <state width="1179" height="222" key="GridCell.Tab.0.left" timestamp="1584397030475">
+    <state width="1179" height="235" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584571480049" />
+    <state width="1179" height="222" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1584482804529" />
+    <state width="1179" height="222" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1584482859136" />
+    <state width="1179" height="235" key="GridCell.Tab.0.left" timestamp="1584571480048">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584306057378" />
-    <state width="1179" height="222" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584397030475" />
-    <state width="1179" height="222" key="GridCell.Tab.0.right" timestamp="1584397030477">
+    <state width="1179" height="235" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584571480048" />
+    <state width="1179" height="222" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1584482804528" />
+    <state width="1179" height="222" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1584482859136" />
+    <state width="1179" height="235" key="GridCell.Tab.0.right" timestamp="1584571480049">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584306057381" />
-    <state width="1179" height="222" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584397030477" />
+    <state width="1179" height="235" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584571480049" />
+    <state width="1179" height="222" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1584482804530" />
+    <state width="1179" height="222" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1584482859137" />
     <state x="202" y="69" key="SettingsEditor" timestamp="1583077862667">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
@@ -196,10 +231,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="294" y="226" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1584218535733" />
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1584393849960">
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1584572501091">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1584393849960" />
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1584572501091" />
     <state x="507" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584214527847">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
@@ -217,5 +252,10 @@
     </state>
     <state x="358" y="165" width="670" height="735" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584288517880" />
     <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1583681485559" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fall_2019_selenium_project$FirstTestNGTest_test1.ic" NAME="FirstTestNGTest.test1 Coverage Results" MODIFIED="1584485934982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cybertek.tests.day9_testing_intro.*</FILTER>
+    </SUITE>
   </component>
 </project>
