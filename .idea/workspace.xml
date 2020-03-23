@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b127fd6-5513-42a2-b5f3-dc8fc24d61c7" name="Default Changelist" comment="AmazonTests and AmazonTestWithText">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +60,18 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JavaScriptExecutorTests.sendKeysWith">
-    <configuration name="ActionsClassDemo.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GoogleHoverTest.test4">
+    <configuration name="GoogleHoverTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day11_select_actions.*" />
+          <option name="PATTERN" value="OfficeHours.Day7_morufjon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_select_actions" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_select_actions.ActionsClassDemo" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
+      <option name="PACKAGE_NAME" value="OfficeHours.Day7_morufjon" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day7_morufjon.GoogleHoverTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -80,17 +79,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsClassDemo.dragAndDrop2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectClassPracticeTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day11_select_actions.*" />
+          <option name="PATTERN" value="OfficeHours.Day7_morufjon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_select_actions" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_select_actions.ActionsClassDemo" />
-      <option name="METHOD_NAME" value="dragAndDrop2" />
+      <option name="PACKAGE_NAME" value="OfficeHours.Day7_morufjon" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day7_morufjon.SelectClassPracticeTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectClassPracticeTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours.Day7_morufjon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OfficeHours.Day7_morufjon" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day7_morufjon.SelectClassPracticeTests" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsClassDemo.dragAndDropAgain" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectClassPracticeTests.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day11_select_actions.*" />
+          <option name="PATTERN" value="OfficeHours.Day7_morufjon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_select_actions" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_select_actions.ActionsClassDemo" />
-      <option name="METHOD_NAME" value="dragAndDropAgain" />
+      <option name="PACKAGE_NAME" value="OfficeHours.Day7_morufjon" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day7_morufjon.SelectClassPracticeTests" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,35 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorTests.scroll" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectClassPracticeTests.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day11_select_actions.*" />
+          <option name="PATTERN" value="OfficeHours.Day7_morufjon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_select_actions" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_select_actions.JavaScriptExecutorTests" />
-      <option name="METHOD_NAME" value="scroll" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptExecutorTests.sendKeysWith" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day11_select_actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_select_actions" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_select_actions.JavaScriptExecutorTests" />
-      <option name="METHOD_NAME" value="sendKeysWith" />
+      <option name="PACKAGE_NAME" value="OfficeHours.Day7_morufjon" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day7_morufjon.SelectClassPracticeTests" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JavaScriptExecutorTests.sendKeysWith" />
-        <item itemvalue="TestNG.JavaScriptExecutorTests.scroll" />
-        <item itemvalue="TestNG.ActionsClassDemo.dragAndDrop" />
-        <item itemvalue="TestNG.ActionsClassDemo.dragAndDropAgain" />
-        <item itemvalue="TestNG.ActionsClassDemo.dragAndDrop2" />
+        <item itemvalue="TestNG.GoogleHoverTest.test4" />
+        <item itemvalue="TestNG.SelectClassPracticeTests.test3" />
+        <item itemvalue="TestNG.SelectClassPracticeTests.test2" />
+        <item itemvalue="TestNG.SelectClassPracticeTests.test" />
+        <item itemvalue="TestNG.SelectClassPracticeTests" />
       </list>
     </recent_temporary>
   </component>
@@ -208,32 +206,32 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="301" y="25" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1584491239635" />
-    <state width="1325" height="176" key="GridCell.Tab.0.bottom" timestamp="1584908862668">
+    <state width="1325" height="192" key="GridCell.Tab.0.bottom" timestamp="1585003204403">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584306057382" />
-    <state width="1325" height="176" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584908862668" />
+    <state width="1325" height="192" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585003204403" />
     <state width="1179" height="222" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1584482804531" />
     <state width="1179" height="222" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1584482859137" />
-    <state width="1325" height="176" key="GridCell.Tab.0.center" timestamp="1584908862666">
+    <state width="1325" height="192" key="GridCell.Tab.0.center" timestamp="1585003204402">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584306057379" />
-    <state width="1325" height="176" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584908862666" />
+    <state width="1325" height="192" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585003204402" />
     <state width="1179" height="222" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1584482804529" />
     <state width="1179" height="222" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1584482859136" />
-    <state width="1325" height="176" key="GridCell.Tab.0.left" timestamp="1584908862666">
+    <state width="1325" height="192" key="GridCell.Tab.0.left" timestamp="1585003204401">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584306057378" />
-    <state width="1325" height="176" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584908862666" />
+    <state width="1325" height="192" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585003204401" />
     <state width="1179" height="222" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1584482804528" />
     <state width="1179" height="222" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1584482859136" />
-    <state width="1325" height="176" key="GridCell.Tab.0.right" timestamp="1584908862667">
+    <state width="1325" height="192" key="GridCell.Tab.0.right" timestamp="1585003204402">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584306057381" />
-    <state width="1325" height="176" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584908862667" />
+    <state width="1325" height="192" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585003204402" />
     <state width="1179" height="222" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1584482804530" />
     <state width="1179" height="222" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1584482859137" />
     <state x="202" y="69" key="SettingsEditor" timestamp="1583077862667">
@@ -244,10 +242,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="294" y="226" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1584218535733" />
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1584887015078">
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1584995758881">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1584887015078" />
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1584995758881" />
     <state x="507" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584214527847">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
@@ -260,11 +258,11 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="122" y="128" key="new project wizard/0.23.1440.828@0.23.1440.828" timestamp="1583012525829" />
-    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1584822418460">
+    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1585001052776">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="358" y="165" width="670" height="735" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584288517880" />
-    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1584822418460" />
+    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1585001052776" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fall_2019_selenium_project$FirstTestNGTest_test1.ic" NAME="FirstTestNGTest.test1 Coverage Results" MODIFIED="1584485934982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
