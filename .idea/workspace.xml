@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b127fd6-5513-42a2-b5f3-dc8fc24d61c7" name="Default Changelist" comment="AmazonTests and AmazonTestWithText">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,42 +60,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.IframesPractice.test">
-    <configuration name="IframeExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.IframeExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IframeExample.htmlPopup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.IframeExample" />
-      <option name="METHOD_NAME" value="htmlPopup" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UnderstandingJavascriptExecutor.test6">
     <configuration name="IframesPractice.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
@@ -115,34 +79,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabsAndWindowsExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnderstandingJavascriptExecutor.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
+          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.TabsAndWindowsExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabsAndWindowsExample.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnderstandingJavascriptExecutor.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
+          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.TabsAndWindowsExample" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnderstandingJavascriptExecutor.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnderstandingJavascriptExecutor.test6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test6" />
+        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test5" />
+        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test4" />
+        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test2" />
         <item itemvalue="TestNG.IframesPractice.test" />
-        <item itemvalue="TestNG.TabsAndWindowsExample.test" />
-        <item itemvalue="TestNG.TabsAndWindowsExample" />
-        <item itemvalue="TestNG.IframeExample" />
-        <item itemvalue="TestNG.IframeExample.htmlPopup" />
       </list>
     </recent_temporary>
   </component>
@@ -210,35 +211,35 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="173" y="123" width="1167" height="627" key="DiffContextDialog/0.23.1440.828@0.23.1440.828" timestamp="1585089012238" />
-    <state width="1325" height="306" key="GridCell.Tab.0.bottom" timestamp="1585176313266">
+    <state width="1325" height="335" key="GridCell.Tab.0.bottom" timestamp="1585261886708">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584306057382" />
-    <state width="1325" height="306" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585176313266" />
+    <state width="1325" height="335" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585261886708" />
     <state width="1325" height="195" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585097643926" />
     <state width="1325" height="195" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1585098059760" />
     <state width="1325" height="342" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585098174326" />
-    <state width="1325" height="306" key="GridCell.Tab.0.center" timestamp="1585176313265">
+    <state width="1325" height="335" key="GridCell.Tab.0.center" timestamp="1585261886707">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584306057379" />
-    <state width="1325" height="306" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585176313265" />
+    <state width="1325" height="335" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585261886707" />
     <state width="1325" height="195" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1585097643924" />
     <state width="1325" height="195" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1585098059759" />
     <state width="1325" height="342" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585098174325" />
-    <state width="1325" height="306" key="GridCell.Tab.0.left" timestamp="1585176313265">
+    <state width="1325" height="335" key="GridCell.Tab.0.left" timestamp="1585261886706">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584306057378" />
-    <state width="1325" height="306" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585176313265" />
+    <state width="1325" height="335" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585261886706" />
     <state width="1325" height="195" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1585097643924" />
     <state width="1325" height="195" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1585098059758" />
     <state width="1325" height="342" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585098174325" />
-    <state width="1325" height="306" key="GridCell.Tab.0.right" timestamp="1585176313265">
+    <state width="1325" height="335" key="GridCell.Tab.0.right" timestamp="1585261886707">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584306057381" />
-    <state width="1325" height="306" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585176313265" />
+    <state width="1325" height="335" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585261886707" />
     <state width="1325" height="195" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1585097643925" />
     <state width="1325" height="195" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1585098059759" />
     <state width="1325" height="342" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585098174326" />
@@ -250,10 +251,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="294" y="226" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1584218535733" />
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1585173158254">
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1585262779037">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1585173158254" />
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1585262779037" />
     <state x="507" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584214527847">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
