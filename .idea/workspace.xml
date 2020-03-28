@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b127fd6-5513-42a2-b5f3-dc8fc24d61c7" name="Default Changelist" comment="AmazonTests and AmazonTestWithText">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +61,18 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UnderstandingJavascriptExecutor.test6">
-    <configuration name="IframesPractice.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExplicitWaitExamples.test4WaitForClickable">
+    <configuration name="ExplicitWaitExamples.test1Titletest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Day9_iframes.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronizations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OfficeHours.Day9_iframes" />
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day9_iframes.IframesPractice" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test1Titletest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,17 +80,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnderstandingJavascriptExecutor.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExplicitWaitExamples.test2WaitForVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronizations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test2WaitForVisible" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,17 +98,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnderstandingJavascriptExecutor.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExplicitWaitExamples.test3WaitForVisibleFail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronizations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test3WaitForVisibleFail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,17 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnderstandingJavascriptExecutor.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExplicitWaitExamples.test4WaitForClickable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronizations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test4WaitForClickable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,17 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnderstandingJavascriptExecutor.test6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExplicitWaitExamples.test4WaitForInvisibile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Day10_Nurullah.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_and_synchronizations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OfficeHours.Day10_Nurullah" />
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day10_Nurullah.UnderstandingJavascriptExecutor" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_and_synchronizations.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test4WaitForInvisibile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test6" />
-        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test5" />
-        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test4" />
-        <item itemvalue="TestNG.UnderstandingJavascriptExecutor.test2" />
-        <item itemvalue="TestNG.IframesPractice.test" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test4WaitForClickable" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test4WaitForInvisibile" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test3WaitForVisibleFail" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test2WaitForVisible" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test1Titletest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,35 +212,35 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="173" y="123" width="1167" height="627" key="DiffContextDialog/0.23.1440.828@0.23.1440.828" timestamp="1585089012238" />
-    <state width="1325" height="335" key="GridCell.Tab.0.bottom" timestamp="1585261886708">
+    <state width="1642" height="344" key="GridCell.Tab.0.bottom" timestamp="1585424839460">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584306057382" />
-    <state width="1325" height="335" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585261886708" />
+    <state width="718" height="335" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585407441801" />
+    <state width="1642" height="344" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585424839460" />
     <state width="1325" height="195" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585097643926" />
     <state width="1325" height="195" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1585098059760" />
     <state width="1325" height="342" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585098174326" />
-    <state width="1325" height="335" key="GridCell.Tab.0.center" timestamp="1585261886707">
+    <state width="1642" height="344" key="GridCell.Tab.0.center" timestamp="1585424839459">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584306057379" />
-    <state width="1325" height="335" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585261886707" />
+    <state width="718" height="335" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585407441799" />
+    <state width="1642" height="344" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585424839459" />
     <state width="1325" height="195" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1585097643924" />
     <state width="1325" height="195" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1585098059759" />
     <state width="1325" height="342" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585098174325" />
-    <state width="1325" height="335" key="GridCell.Tab.0.left" timestamp="1585261886706">
+    <state width="1642" height="344" key="GridCell.Tab.0.left" timestamp="1585424839459">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584306057378" />
-    <state width="1325" height="335" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585261886706" />
+    <state width="718" height="335" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585407441797" />
+    <state width="1642" height="344" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585424839459" />
     <state width="1325" height="195" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1585097643924" />
     <state width="1325" height="195" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1585098059758" />
     <state width="1325" height="342" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585098174325" />
-    <state width="1325" height="335" key="GridCell.Tab.0.right" timestamp="1585261886707">
+    <state width="1642" height="344" key="GridCell.Tab.0.right" timestamp="1585424839459">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584306057381" />
-    <state width="1325" height="335" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585261886707" />
+    <state width="718" height="335" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585407441800" />
+    <state width="1642" height="344" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585424839459" />
     <state width="1325" height="195" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1585097643925" />
     <state width="1325" height="195" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1585098059759" />
     <state width="1325" height="342" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585098174326" />
@@ -251,10 +252,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="294" y="226" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1584218535733" />
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1585262779037">
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1585406236038">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1585262779037" />
+    <state x="449" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1585406236038" />
     <state x="507" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584214527847">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
@@ -267,11 +268,11 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="122" y="128" key="new project wizard/0.23.1440.828@0.23.1440.828" timestamp="1583012525829" />
-    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1585001052776">
+    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1585423722169">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="358" y="165" width="670" height="735" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584288517880" />
-    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1585001052776" />
+    <state x="358" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1585423722169" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fall_2019_selenium_project$FirstTestNGTest_test1.ic" NAME="FirstTestNGTest.test1 Coverage Results" MODIFIED="1584485934982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

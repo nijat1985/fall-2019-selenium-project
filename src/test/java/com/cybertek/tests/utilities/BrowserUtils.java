@@ -37,7 +37,9 @@ public class BrowserUtils {
             if (driver.getTitle().equals(title)){
                 break;
             }
+            driver.switchTo().defaultContent();
         }
+
     }
 
     /**
@@ -55,6 +57,7 @@ public class BrowserUtils {
             if (driver.getCurrentUrl().equals(url)){
                 break;
             }
+            driver.switchTo().defaultContent();
         }
     }
 
