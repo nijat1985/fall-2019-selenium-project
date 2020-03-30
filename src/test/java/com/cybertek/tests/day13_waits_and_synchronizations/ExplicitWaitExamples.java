@@ -1,6 +1,6 @@
 package com.cybertek.tests.day13_waits_and_synchronizations;
 
-import com.cybertek.tests.utilities.WebDriverFactory;
+import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebDriver;

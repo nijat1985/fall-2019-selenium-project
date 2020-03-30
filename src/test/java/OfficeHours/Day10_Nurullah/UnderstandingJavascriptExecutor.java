@@ -1,6 +1,6 @@
 package OfficeHours.Day10_Nurullah;
 
-import com.cybertek.tests.utilities.WebDriverFactory;
+import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;

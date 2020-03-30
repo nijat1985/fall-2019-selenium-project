@@ -1,6 +1,6 @@
 package com.cybertek.tests.day10_webelement;
 
-import com.cybertek.tests.utilities.WebDriverFactory;
+import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
