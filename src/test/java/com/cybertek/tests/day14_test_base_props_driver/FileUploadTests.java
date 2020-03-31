@@ -20,6 +20,9 @@ public class FileUploadTests extends TestBase {
     public void fileUploadTest(){
         String url = ConfigurationReader.getProperty("url");
         driver.get(url);
+
+
+
         WebElement file_upload = driver.findElement(By.linkText("File Upload"));
         file_upload.click();
 

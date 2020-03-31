@@ -10,8 +10,8 @@ public abstract class TestBase {
 
     @BeforeMethod
     public void setUpMethod(){
-
         driver = Driver.getDriver();
+        driver.manage().window().maximize();
     }
 
     @AfterMethod
