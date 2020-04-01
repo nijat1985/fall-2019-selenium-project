@@ -73,4 +73,13 @@ public class Driver {
         }
         return driver;
     }
+
+    public static void closeDriver(){
+        //close the driver
+        driver.quit();
+        //then make the object null value in order to open browser for the next test which is in the same class again
+        driver = null;
+    }
+
+
 }
