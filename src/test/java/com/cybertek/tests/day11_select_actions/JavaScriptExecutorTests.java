@@ -32,16 +32,19 @@ public class JavaScriptExecutorTests {
         Thread.sleep(2000);
         jse.executeScript("arguments[0].scrollIntoView(true);", link);
 
+
         Thread.sleep(2000);
     }
 
 
     @Test
-    public void sendKeysWith(){
+    public void sendKeysWith() throws InterruptedException {
         driver.get("http://practice.cybertekschool.com/dynamic_controls");
         WebElement input = driver.findElement(By.cssSelector("input[disabled]"));
         String text = "hi world";
+        Thread.sleep(2000);
         jse.executeScript("arguments[0].setAttribute('value', '" + text + "')", input);
+        Thread.sleep(2000);
     }
 
 

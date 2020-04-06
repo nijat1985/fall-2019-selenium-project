@@ -26,7 +26,7 @@ public class PopupAndAlertsExamples {
         WebElement button = driver.findElement(By.xpath("//span[text()='Destroy the World']"));
         button.click();
         Thread.sleep(2000);
-        WebElement nooo = driver.findElement(By.xpath("//span[.='No']"));
+        WebElement nooo = driver.findElement(By.id("//span[.='No']"));
         nooo.click();
         Thread.sleep(2000);
     }
@@ -34,10 +34,11 @@ public class PopupAndAlertsExamples {
     @Test
     public void jsAlerts(){
         driver.get("http://practice.cybertekschool.com/javascript_alerts");
+
         WebElement button1 = driver.findElement(By.xpath("//button[1]"));
         button1.click();
 
-        Alert alert = driver.switchTo().alert(); // we can do it if we have alert in the page otherwise its not gonna work.
+        Alert alert = driver.switchTo().alert();// we can do it if we have alert in the page otherwise its not gonna work.
         alert.accept();//it means that selenium webdriver pushs ok button on alert in order get rid of it. there are some actions can we do here like dismiss..
 
     }
@@ -69,6 +70,7 @@ public class PopupAndAlertsExamples {
         }catch (NoAlertPresentException e) {
             e.printStackTrace();
         }
+
     }
 
 }

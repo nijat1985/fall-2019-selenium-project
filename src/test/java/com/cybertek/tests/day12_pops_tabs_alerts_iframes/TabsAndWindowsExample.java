@@ -1,5 +1,6 @@
 package com.cybertek.tests.day12_pops_tabs_alerts_iframes;
 
+import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -47,7 +48,7 @@ public class TabsAndWindowsExample {
         System.out.println(driver.findElement(By.tagName("h3")).getText());
 
         for (String windowHandle : windowHandles) {
-            driver.switchTo().window(windowHandle);
+            driver.switchTo().window(windowHandle);//CDwindow-A1C3112141F63028A7BF31AFB5C233AE
             if (driver.getTitle().equals("New Window")){
                 break;
             }
@@ -57,6 +58,10 @@ public class TabsAndWindowsExample {
         System.out.println(driver.getTitle());
         System.out.println(driver.findElement(By.tagName("h3")).getText());
 
+        BrowserUtils.getNewWindowByTitle(driver,"Practice");
+        System.out.println("AFTER SWITCHING TO PRACTICE");
+        System.out.println(driver.getTitle());
+        System.out.println(driver.findElement(By.tagName("h3")).getText());
     }
 
 }

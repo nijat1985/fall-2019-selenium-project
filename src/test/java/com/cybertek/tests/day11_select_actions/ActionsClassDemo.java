@@ -17,7 +17,7 @@ public class ActionsClassDemo {
     @BeforeMethod
     public void beforeMethod(){
         driver = WebDriverFactory.getDriver("chrome");
-        driver.manage().window().maximize();
+        driver.manage().window().fullscreen();
 
         actions = new Actions(driver);
     }
@@ -48,8 +48,7 @@ public class ActionsClassDemo {
         // move the mouse to downloads
         // wait
         // click on pdf
-        actions.
-                moveToElement(enabled).
+        actions.moveToElement(enabled).
                 pause(2000).
                 moveToElement(downloads).
                 pause(2000).
@@ -64,7 +63,7 @@ public class ActionsClassDemo {
         WebElement money = driver.findElement(By.id("draggable"));
         WebElement bank = driver.findElement(By.id("droptarget"));
         Thread.sleep(3000);
-        actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).build().perform();
+      // actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).build().perform();
         actions.moveToElement(money).perform();
         actions.dragAndDrop(money,bank).perform();
         Thread.sleep(3000);

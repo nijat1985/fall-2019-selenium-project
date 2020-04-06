@@ -115,6 +115,7 @@ public class SelectClassTests {
         Select list = new Select(driver.findElement(By.id("dropdown")));
         //TODO verify that list has 3 options
         int expectedSize = 3;
+
         int actualSize = list.getOptions().size();
         Assert.assertEquals(expectedSize, actualSize);
 

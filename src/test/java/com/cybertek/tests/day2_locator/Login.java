@@ -1,9 +1,11 @@
 package com.cybertek.tests.day2_locator;
 
+import com.cybertek.tests.day1_navigation.VerifyTitle;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 public class Login {
     public static void main(String[] args) throws Exception {
@@ -39,6 +41,7 @@ public class Login {
         driver.findElement(By.id("prependedInput")).sendKeys("storemanager52");
         driver.findElement(By.id("prependedInput2")).sendKeys("UserUser123");
         driver.findElement(By.id("_submit")).click();
+        
 
 
         String expectedTitle = "Dashboard";
