@@ -18,14 +18,25 @@ public class PageHeadersTests extends VytrackTestBase {
 
     @Test
     public void dashBoardPage(){
+        test = report.createTest("Dashboard page title test");
+
         String username = ConfigurationReader.getProperty("driver_username");
         String password = ConfigurationReader.getProperty("driver_password");
+
+        test.info("Logging into application");
+
+
         loginPage.login(username,password);
 
 
         wait.until(ExpectedConditions.textToBePresentInElement(dashboardPage.pageHeader,"Quick Launchpad"));
         String actual = dashboardPage.pageHeader.getText();
+
+        test.info("Verifiying page header text");
+
         assertEquals(actual, "Quick Launchpad");
+
+        test.pass("Pass: Dashboard page title test");
     }
 
     //go to vytrack
@@ -35,21 +46,62 @@ public class PageHeadersTests extends VytrackTestBase {
 
     @Test
     public void fleetVehiclesTest(){
+
+        test = report.createTest("Vehicles page title test");
+
         //use login to login page
         String username = ConfigurationReader.getProperty("driver_username");
         String password = ConfigurationReader.getProperty("driver_password");
+
+        test.info("Logging into application");
+        test.info("Username: " + username);
+        test.info("Password: " + password);
+
         loginPage.login(username,password);
 
+
+        test.info("Going to Fleet -> Vehicles");
         //use dashboard page cahnge page
         wait.until(ExpectedConditions.elementToBeClickable(dashboardPage.fleet));
         dashboardPage.fleet.click();
         wait.until(ExpectedConditions.elementToBeClickable(dashboardPage.vehicle));
         dashboardPage.vehicle.click();
 
+
         //use vehicle page
         wait.until(ExpectedConditions.textToBePresentInElement(vehiclesPage.pageHeader, "Cars"));
+
+        test.info("Verifiying page header text");
+
         String actual = vehiclesPage.pageHeader.getText();
         assertEquals(actual, "Cars");
+
+        test.pass("Pass: Vehicles page title test");
+    }
+
+    @Test
+    public void customersContacts() throws InterruptedException {
+        test = report.createTest("Contacts page title test");
+
+        // use login to login
+        String username = ConfigurationReader.getProperty("driver_username");
+        String password = ConfigurationReader.getProperty("driver_password");
+        test.info("Logging in to application");
+        test.info("Username: " + username);
+        test.info("Password: " + password);
+        loginPage.login(username, password);
+        // use dashbaord change page
+
+        test.info("Going to Customers -> Contacts");
+        dashboardPage.changeMenu("Customers", "Contacts");
+
+        // use the fllet / vehicles page to get text
+        wait.until(ExpectedConditions.textToBePresentInElement(vehiclesPage.pageHeader, "Contacts"));
+        test.info("Verifying page header");
+        String actual = vehiclesPage.pageHeader.getText();
+        assertEquals(actual, "Contacts");
+        test.pass("PASS: Contacts page title test");
+
     }
 
 }

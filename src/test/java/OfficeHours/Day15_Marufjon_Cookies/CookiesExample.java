@@ -23,8 +23,9 @@ public class CookiesExample extends TestBase {
         Set<Cookie> cookies = driver.manage().getCookies();
         System.out.println("cookies.size() = " + cookies.size());
         for (Cookie cookie: cookies){
-            System.out.println("cookie.toString() = " + cookie.toString());
+            System.out.println("cookie.toString() = " + cookie.getName());
         }
+
 
         //delete all cookies
         driver.manage().deleteAllCookies();
@@ -34,7 +35,10 @@ public class CookiesExample extends TestBase {
 
         //print cookies again after deletion
         Set<Cookie> cookies1 = driver.manage().getCookies();
-        System.out.println("cookies1.size() = " + cookies1.size());
+        for (Cookie cookie : cookies1) {
+            System.out.println("cookie.getName() = " + cookie.getName());
+        }
+        //System.out.println("cookies1.size() = " + cookies1.size());
 
         //Add cookie
         Driver.closeDriver();
