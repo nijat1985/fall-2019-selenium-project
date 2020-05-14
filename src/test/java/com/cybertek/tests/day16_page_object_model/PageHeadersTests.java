@@ -16,7 +16,7 @@ public class PageHeadersTests extends VytrackTestBase {
     //login as a driver
     //verify that header is Quick Launchpad
 
-    @Test
+    @Test()//threadPoolSize = 4, invocationCount = 4, timeOut = 17000
     public void dashBoardPage(){
         test = report.createTest("Dashboard page title test");
 

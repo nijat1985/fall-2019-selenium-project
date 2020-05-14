@@ -43,7 +43,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Apr 14, 2020 03:12:07 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Apr 25, 2020 06:28:58 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -59,6 +59,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -101,10 +102,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='25%'><span class='strong'>1</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='75%'>3</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -122,17 +123,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Contacts page title test</span>
-						<span class='test-time'>Apr 14, 2020 03:12:14 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>Dashboard page title test</span>
+						<span class='test-time'>Apr 25, 2020 06:29:09 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 14, 2020 03:12:14 PM</span>
-	<span class='label end-time'>Apr 14, 2020 03:12:18 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+757ms</span>
+	<span class='label start-time'>Apr 25, 2020 06:29:09 PM</span>
+	<span class='label end-time'>Apr 25, 2020 06:29:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+356ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -146,49 +147,17 @@
 		<tbody>
 			<tr class='log' status='info'>
 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:14 PM</td>
+				<td class='timestamp'>6:29:09 PM</td>
 				<td class='step-details'>
-						Logging in to application
+						Logging into application
 					
 				</td>
 			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:14 PM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>6:29:09 PM</td>
 				<td class='step-details'>
-						Username: user1
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:14 PM</td>
-				<td class='step-details'>
-						Password: UserUser123
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:17 PM</td>
-				<td class='step-details'>
-						Going to Customers -> Contacts
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:18 PM</td>
-				<td class='step-details'>
-						Verifying page header
-					
-				</td>
-			</tr>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>3:12:18 PM</td>
-				<td class='step-details'>
-						PASS: Contacts page title test
+						dashBoardPage
 					
 				</td>
 			</tr>
@@ -197,17 +166,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>Dashboard page title test</span>
-						<span class='test-time'>Apr 14, 2020 03:12:25 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Apr 25, 2020 06:29:09 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 14, 2020 03:12:25 PM</span>
-	<span class='label end-time'>Apr 14, 2020 03:12:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+343ms</span>
+	<span class='label start-time'>Apr 25, 2020 06:29:09 PM</span>
+	<span class='label end-time'>Apr 25, 2020 06:29:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+119ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -221,7 +190,99 @@
 		<tbody>
 			<tr class='log' status='info'>
 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:25 PM</td>
+				<td class='timestamp'>6:29:09 PM</td>
+				<td class='step-details'>
+						Logging into application
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>6:29:09 PM</td>
+				<td class='step-details'>
+						dashBoardPage
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062909.png' src='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062909.png' data-src='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062909.png'></li>
+						</ul>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Dashboard page title test</span>
+						<span class='test-time'>Apr 25, 2020 06:29:10 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 25, 2020 06:29:10 PM</span>
+	<span class='label end-time'>Apr 25, 2020 06:29:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+66ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>6:29:10 PM</td>
+				<td class='step-details'>
+						Logging into application
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>6:29:10 PM</td>
+				<td class='step-details'>
+						dashBoardPage
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062909.png' src='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062909.png' data-src='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062909.png'></li>
+						</ul>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>Dashboard page title test</span>
+						<span class='test-time'>Apr 25, 2020 06:29:10 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 25, 2020 06:29:10 PM</span>
+	<span class='label end-time'>Apr 25, 2020 06:29:15 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+949ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>6:29:10 PM</td>
 				<td class='step-details'>
 						Logging into application
 					
@@ -229,7 +290,7 @@
 			</tr>
 			<tr class='log' status='info'>
 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:27 PM</td>
+				<td class='timestamp'>6:29:15 PM</td>
 				<td class='step-details'>
 						Verifiying page header text
 					
@@ -237,7 +298,7 @@
 			</tr>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>3:12:27 PM</td>
+				<td class='timestamp'>6:29:15 PM</td>
 				<td class='step-details'>
 						Pass: Dashboard page title test
 					
@@ -246,81 +307,9 @@
 		</tbody>
 	</table>
 </div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>Vehicles page title test</span>
-						<span class='test-time'>Apr 14, 2020 03:12:33 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Apr 14, 2020 03:12:33 PM</span>
-	<span class='label end-time'>Apr 14, 2020 03:12:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+976ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:33 PM</td>
-				<td class='step-details'>
-						Logging into application
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:33 PM</td>
-				<td class='step-details'>
-						Username: user1
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:33 PM</td>
-				<td class='step-details'>
-						Password: UserUser123
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:34 PM</td>
-				<td class='step-details'>
-						Going to Fleet -> Vehicles
-					
-				</td>
-			</tr>
-			<tr class='log' status='info'>
-				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>3:12:37 PM</td>
-				<td class='step-details'>
-						Verifiying page header text
-					
-				</td>
-			</tr>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>3:12:37 PM</td>
-				<td class='step-details'>
-						Pass: Vehicles page title test
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062910.png' src='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062910.png' data-src='/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/test-output/Screenshots/dashBoardPage20200425062910.png'></li>
+						</ul>
 					</div>
 				</li>
 			</ul>
@@ -352,7 +341,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -364,19 +353,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 14, 2020 03:12:07 PM</div>
+					<div class='panel-lead'>Apr 25, 2020 06:28:58 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 14, 2020 03:12:39 PM</div>
+			 		<div class='panel-lead'>Apr 25, 2020 06:29:16 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 32s+395ms</div>
+					<div class='panel-lead'>0h 0m 17s+438ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -407,14 +396,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 3,
-				passParent: 3,
-				failParent: 0,
+                parentCount: 4,
+				passParent: 1,
+				failParent: 3,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 3,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -439,7 +428,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Contacts page title test":4.757,"Dashboard page title test":2.343,"Vehicles page title test":3.976
+			        "Dashboard page title test":0.356,"Dashboard page title test":0.119,"Dashboard page title test":0.066,"Dashboard page title test":4.949
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/e9ccc29bd18c7914697075f44948d0913e462478/v3html/js/extent.js' type='text/javascript'></script>

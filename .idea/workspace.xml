@@ -4,13 +4,10 @@
     <list default="true" id="3b127fd6-5513-42a2-b5f3-dc8fc24d61c7" name="Default Changelist" comment="AmazonTests and AmazonTestWithText">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OfficeHours/Day15_Marufjon_Cookies/CookiesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OfficeHours/Day15_Marufjon_Cookies/CookiesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OfficeHours/Day15_Marufjon_Cookies/SoftAssertionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OfficeHours/Day15_Marufjon_Cookies/SoftAssertionsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytrackTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytrackTestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/PageHeadersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/PageHeadersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/fall-2019-selenium-project.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_excel_io/ReadExcelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_excel_io/ReadExcelExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +67,47 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BadLink.test">
-    <configuration name="BadLink.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MySQLJDBCConnectionDemo.test">
+    <configuration name="RobotExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.os_popUp.RobotExp" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="just_for_fun.*" />
+          <option name="PATTERN" value="com.cybertek.os_popUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="just_for_fun" />
-      <option name="MAIN_CLASS_NAME" value="just_for_fun.BadLink" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorySimpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.magic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.magic" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.magic.FactorySimpleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySQLJDBCConnectionDemo.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day20_jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day20_jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day20_jdbc.MySQLJDBCConnectionDemo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -89,16 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountryInformationDDT.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OracleJDBCConnectionDemo.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfficeHours.Day16_Morufjon_excel.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day20_jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OfficeHours.Day16_Morufjon_excel" />
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Day16_Morufjon_excel.CountryInformationDDT" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day20_jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day20_jdbc.OracleJDBCConnectionDemo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -107,46 +134,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelWriteExample.readAndWrite" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Read.testImportexport1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day19_excel_io.*" />
+          <option name="PATTERN" value="com.cybertek.os_popUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day19_excel_io" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day19_excel_io.ExcelWriteExample" />
-      <option name="METHOD_NAME" value="readAndWrite" />
+      <option name="PACKAGE_NAME" value="com.cybertek.os_popUp" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.os_popUp.Read" />
+      <option name="METHOD_NAME" value="testImportexport1" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Swithces.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="just_for_fun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="just_for_fun" />
-      <option name="MAIN_CLASS_NAME" value="just_for_fun.Swithces" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/nijat1985/IdeaProjects/fall-2019-selenium-project/regression_test_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-selenium-project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_test_runner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BadLink.test" />
-        <item itemvalue="TestNG.Swithces.test" />
-        <item itemvalue="TestNG./Users/nijat1985/IdeaProjects/fall-2019-selenium-project/regression_test_runner.xml" />
-        <item itemvalue="TestNG.CountryInformationDDT.test" />
-        <item itemvalue="TestNG.ExcelWriteExample.readAndWrite" />
+        <item itemvalue="TestNG.MySQLJDBCConnectionDemo.test" />
+        <item itemvalue="TestNG.OracleJDBCConnectionDemo.test" />
+        <item itemvalue="Application.RobotExp" />
+        <item itemvalue="TestNG.Read.testImportexport1" />
+        <item itemvalue="TestNG.FactorySimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,37 +236,37 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="173" y="123" width="1167" height="627" key="DiffContextDialog/0.23.1440.828@0.23.1440.828" timestamp="1585089012238" />
-    <state width="1294" height="176" key="GridCell.Tab.0.bottom" timestamp="1587010348517">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1340" height="275" key="GridCell.Tab.0.bottom" timestamp="1589418916030">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state width="718" height="335" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585407441801" />
-    <state width="1294" height="176" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1587010348517" />
-    <state width="1189" height="372" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1586377210389" />
-    <state width="1339" height="168" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1586449274301" />
+    <state width="1340" height="306" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589414873566" />
+    <state width="1340" height="239" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1589415270101" />
+    <state width="1340" height="275" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1589418916030" />
     <state width="1325" height="342" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585098174326" />
-    <state width="1294" height="176" key="GridCell.Tab.0.center" timestamp="1587010348516">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1340" height="275" key="GridCell.Tab.0.center" timestamp="1589418916029">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state width="718" height="335" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585407441799" />
-    <state width="1294" height="176" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1587010348516" />
-    <state width="1189" height="372" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1586377210388" />
-    <state width="1339" height="168" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1586449274300" />
+    <state width="1340" height="306" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1589414873564" />
+    <state width="1340" height="239" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1589415270100" />
+    <state width="1340" height="275" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1589418916029" />
     <state width="1325" height="342" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585098174325" />
-    <state width="1294" height="176" key="GridCell.Tab.0.left" timestamp="1587010348515">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1340" height="275" key="GridCell.Tab.0.left" timestamp="1589418916028">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state width="718" height="335" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585407441797" />
-    <state width="1294" height="176" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1587010348515" />
-    <state width="1189" height="372" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1586377210388" />
-    <state width="1339" height="168" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1586449274297" />
+    <state width="1340" height="306" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1589414873563" />
+    <state width="1340" height="239" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1589415270100" />
+    <state width="1340" height="275" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1589418916028" />
     <state width="1325" height="342" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585098174325" />
-    <state width="1294" height="176" key="GridCell.Tab.0.right" timestamp="1587010348517">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1340" height="275" key="GridCell.Tab.0.right" timestamp="1589418916029">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state width="718" height="335" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585407441800" />
-    <state width="1294" height="176" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1587010348517" />
-    <state width="1189" height="372" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1586377210389" />
-    <state width="1339" height="168" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1586449274301" />
+    <state width="1340" height="306" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1589414873565" />
+    <state width="1340" height="239" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1589415270100" />
+    <state width="1340" height="275" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1589418916029" />
     <state width="1325" height="342" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585098174326" />
     <state x="65" y="23" width="1024" height="828" key="SettingsEditor" timestamp="1586997863539">
       <screen x="0" y="23" width="1440" height="828" />
@@ -294,6 +293,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="58" y="23" key="new project wizard/0.23.1440.828@0.23.1440.828" timestamp="1586997144724" />
+    <state x="356" y="174" width="670" height="675" key="run.anything.popup" timestamp="1589212623816">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="356" y="174" width="670" height="675" key="run.anything.popup/0.23.1440.828@0.23.1440.828" timestamp="1589212623816" />
     <state x="358" y="175" width="670" height="158" key="search.everywhere.popup" timestamp="1586393612804">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
